@@ -28,24 +28,28 @@ public class TeacherActivity extends AppCompatActivity {
         cg_trader = findViewById(R.id.cg_trader);
 
         ArrayList<String> subjects = new ArrayList<String>();
-        subjects.add("Science");
+
         subjects.add("Geography");
         subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
-        subjects.add("Science");
-        subjects.add("Geography");
+        subjects.add("Building & Planning");
+        subjects.add("Arts & Humanities");
+        subjects.add("Computing and IT");
+        subjects.add("Design");
+        subjects.add("Engineering");
+        subjects.add("Health & Wellbeing");
+        subjects.add("Law");
+        subjects.add("Medical Sciences");
+        subjects.add("Social Sciences");
+        subjects.add("Technology");
+        subjects.add("Nursing & Healthcare Practice");
+        subjects.add("Mathematics & Statistics");
+        subjects.add("Languages");
+        subjects.add("Environment & Development");
+        subjects.add("Education, Childhood & Youth");
+        subjects.add("Business & Management");
+        subjects.add("History");
+        subjects.add("Civics");
+        subjects.add("Hindi");
 
 
         ArrayAdapter<String> itemsAdapter =

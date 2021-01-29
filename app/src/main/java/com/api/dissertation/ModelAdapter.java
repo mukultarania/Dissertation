@@ -30,9 +30,14 @@ public class ModelAdapter extends ArrayAdapter<Model> {
         Model currentModel = getItem(position);
         TextView title = listItemView.findViewById(R.id.title);
         TextView descp = listItemView.findViewById(R.id.descp);
+        ImageView logo = listItemView.findViewById(R.id.logo);
 
         String tit = currentModel.getTitle();
-        String desc = currentModel.getTitle();
+        String desc = currentModel.getDescription();
+
+        logo.setImageResource(currentModel.getmImageResourceId());
+        title.setText(tit);
+        descp.setText(desc);
         return listItemView;
     }
 

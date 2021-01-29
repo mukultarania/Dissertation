@@ -9,22 +9,33 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <ImageView
+            android:layout_gravity="left"
+            android:id="@+id/logo"
+            android:layout_width="75dp"
+            android:layout_height="150dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
         <TextView
+            android:gravity="center"
             android:id="@+id/title"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="GLOBE View" />
+            android:layout_weight="3"
+            android:text="GLOBE View"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/descp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Description Description Description Description Description " />
+            android:layout_weight="5"
+            android:text="Description Description Description Description Description "
+            android:textColor="@color/black" />
 
     </LinearLayout>
 </LinearLayout>
